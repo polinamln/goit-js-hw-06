@@ -9,11 +9,7 @@ const ingredients = [
 
 const list = document.querySelector('#ingredients'); 
 
-console.log(list);
-
 createList(ingredients); 
-
-
 
 function createList(ingredients) {
   
