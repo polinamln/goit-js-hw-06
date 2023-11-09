@@ -3,7 +3,7 @@ const span = document.querySelector('#name-output');
 
 
 input.addEventListener("input", (event) => {
-    const inputValue = event.target.value;
+    const inputValue = event.target.value.trim();
     span.textContent = inputValue;
 
     if (inputValue === "") {

@@ -11,7 +11,7 @@ input.addEventListener("blur", () => {
 
     const inputValue = input.value
 
-    if (inputValue.length >= dataInputValue) {
+    if (inputValue.length === dataInputValue) {
         input.classList.remove('invalid')
         input.classList.add('valid')
         } else {
